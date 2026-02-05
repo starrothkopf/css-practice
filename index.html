@@ -103,16 +103,7 @@
             max-width: 40vw;
         }
 
-        aside {
-            min-width: 300px;
-            border: 1px solid rgb(30, 30, 30);
-            border-radius: 10px;
-            padding: 5px;
-            background-color: rgb(30, 30, 30);
-            color: white;
-        }
-
-       section::before {
+        section::before {
             content: "";
             position: fixed;
             bottom: 0;
@@ -126,6 +117,15 @@
 
         section:hover::before {
             height: 0%;
+        }
+
+        aside {
+            min-width: 300px;
+            border: 1px solid rgb(30, 30, 30);
+            border-radius: 10px;
+            padding: 5px;
+            background-color: red;
+            color: white;
         }
         
         aside h1 {
